@@ -10201,3 +10201,57 @@ header.masthead h1 {
     margin-top: 0;
   }
 }
+.im-n{
+  width: 50%;
+  border-radius: 50%;
+  transition: all .3s;
+}
+a.lien:link
+{
+  text-decoration:none;
+}
+.centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reseauSo{
+  width: 100%;
+
+}
+.Icon{
+  width: 65px;
+  height: 65px;
+  margin: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all .4s;
+}
+.Icon:nth-child(1):hover{
+  box-shadow: 0px 0px 0px 10px #1877f2;
+}
+.Icon:nth-child(2):hover{
+  box-shadow: 0px 0px 0px 10px #c32aa3;
+}
+
+.Icon:nth-child(3):hover{
+  box-shadow: 0px 0px 0px 10px #0d6efd;
+}
+.Icon:nth-child(4):hover{
+  box-shadow: 0px 0px 0px 10px #1da1f2;
+}
+
+.fa-facebook{
+  color:  #1877f2;
+  filter: drop-shadow(0px 0px 10px #1877f2);
+}
+.fa-instagram{
+  color: #c32aa3;
+  filter: drop-shadow(0px 0px 10px #c32aa3);
+
+}
+
+.fa-linkedin{
+  color: #0d6efd;
+  filter: drop-shadow(0px 0px 10px #0d6efd);
+}
