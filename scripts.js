@@ -1,4 +1,4 @@
-/*!
+ /*!
     * Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -59,5 +59,16 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+
+      $(document).ready(()=>{
+        let typed= new Typed('.text-d', {
+          strings:['to my website!'],
+          typeSpeed:80,
+          backSpeed: 60,
+          loop: true
+        })
+      })
+
 
 })(jQuery); // End of use strict
