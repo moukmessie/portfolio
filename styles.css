@@ -10238,7 +10238,7 @@ a.lien:link
   box-shadow: 0px 0px 0px 10px #0d6efd;
 }
 .Icon:nth-child(4):hover{
-  box-shadow: 0px 0px 0px 10px #1da1f2;
+  box-shadow: 0px 0px 0px 10px #040204;
 }
 
 .fa-facebook{
@@ -10254,4 +10254,9 @@ a.lien:link
 .fa-linkedin{
   color: #0d6efd;
   filter: drop-shadow(0px 0px 10px #0d6efd);
+}
+
+.fa-github{
+  color: #040204;
+  filter: drop-shadow(0px 0px 10px #040204);
 }
