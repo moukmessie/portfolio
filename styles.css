@@ -10223,6 +10223,8 @@ a.lien:link
   width: 100%;
   position: absolute;
   //left: -37%;
+  align-items: center;
+  justify-content: center;
 
 }
 .Icon{
