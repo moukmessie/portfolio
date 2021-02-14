@@ -1,8 +1,4 @@
- /*!
-    * Start Bootstrap - Creative v6.0.4 (https://startbootstrap.com/theme/creative)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-    */
+
     (function($) {
   "use strict"; // Start of use strict
 
@@ -20,12 +16,12 @@
     }
   });
 
-  // Closes responsive menu when a scroll trigger link is clicked
+  // Closes responsive menu 
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
-  // Activate scrollspy to add active class to navbar items on scroll
+  // Activate scrollspy 
   $('body').scrollspy({
     target: '#mainNav',
     offset: 75
@@ -60,7 +56,7 @@
     }
   });
 
-
+//text type auto
       $(document).ready(()=>{
         let typed= new Typed('.text-d', {
           strings:['to my website!'],
