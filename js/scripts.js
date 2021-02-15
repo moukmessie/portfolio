@@ -1,8 +1,8 @@
 
     (function($) {
-  "use strict"; // Start of use strict
+  "use strict"; // Utilisation de strict
 
-  // Smooth scrolling using jQuery easing
+  // Défilement fluide à l'aide de l'accélération jQuery
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -66,5 +66,5 @@
         })
       })
 
-
+//text typed auto
 })(jQuery); // End of use strict
